@@ -60,7 +60,7 @@ The `rel` attribute has no default value. If the attribute is omitted or if none
 
   - : Indicates an alternate representation of the current document. Valid for {{htmlelement('link')}}, {{htmlelement('a')}}, and {{htmlelement('area')}}, the meaning depends on the values of the other attributes.
 
-    - With the [`stylesheet`](#stylesheet) keyword on a `<link>`, it creates an [alternate stylesheet](/en-US/docs/Web/CSS/Alternative_style_sheets).
+    - With the [`stylesheet`](#stylesheet) keyword on a `<link>`, it creates an [alternate stylesheet](/en-US/docs/Web/HTML/Attributes/rel/alternate_stylesheet).
 
       ```html
       <!-- a persistent style sheet -->
@@ -209,7 +209,7 @@ The `rel` attribute has no default value. If the attribute is omitted or if none
 
   - : Relevant to {{htmlelement('form')}}, {{htmlelement('link')}}, {{htmlelement('a')}}, and {{htmlelement('area')}} elements, the `search` keywords indicates that the hyperlink references a document whose interface is specially designed for searching in the current document, site, and related resources, providing a link to a resource that can be used to search.
 
-    If the [`type`](/en-US/docs/Web/HTML/Element/link#type) attribute is set to `application/opensearchdescription+xml` the resource is an [OpenSearch](/en-US/docs/Web/OpenSearch) plugin that can be easily added to the interface of Firefox.
+    If the [`type`](/en-US/docs/Web/HTML/Element/link#type) attribute is set to `application/opensearchdescription+xml` the resource is an [OpenSearch](/en-US/docs/Web/XML/Guides/OpenSearch) plugin that can be easily added to the interface of Firefox.
 
 - `stylesheet`
 
